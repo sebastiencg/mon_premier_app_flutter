@@ -8,21 +8,9 @@ class FirstScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Troisième Page'),
+        title: const Text('Premièrer Page'),
       ),
       body: Center(
-        child: ElevatedButton(
-          child: const Text('Aller à la Première page'),
-          onPressed: () {
-            Navigator.pushNamed(context, '/');
-          },
-        ),
-        child: ElevatedButton(
-          child: const Text('Aller à la Première page'),
-          onPressed: () {
-            Navigator.pushNamed(context, '/');
-          },
-        ),
       ),
     );
   }

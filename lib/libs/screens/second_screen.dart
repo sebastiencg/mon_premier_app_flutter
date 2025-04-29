@@ -54,20 +54,6 @@ class _SecondScreenState extends State<SecondScreen> {
                 ? CameraPreview(_controller!)
                 : const Center(child: CircularProgressIndicator()),
           ),
-          SafeArea(
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: SizedBox(
-                width: double.infinity,
-                child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                  child: const Text('Retour'),
-                ),
-              ),
-            ),
-          ),
         ],
       ),
     );

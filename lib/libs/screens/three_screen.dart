@@ -11,12 +11,6 @@ class ThreeScreen extends StatelessWidget {
         title: const Text('Troisième Page'),
       ),
       body: Center(
-        child: ElevatedButton(
-          child: const Text('Aller à la premier page'),
-          onPressed: () {
-            Navigator.pushNamed(context, '/first');
-          },
-        ),
       ),
     );
   }
